@@ -23,7 +23,7 @@
 
 ---
 
-## 📋 Sobre o Projeto
+## Sobre o Projeto
 
 Este projeto é parte da disciplina **Projeto Aplicado IV** do curso de **Tecnologia em Ciência de Dados EaD** da **Universidade Presbiteriana Mackenzie** (2026/01).
 
@@ -31,7 +31,7 @@ A proposta consiste em transformar dados públicos de acidentes de trabalho, dis
 
 O projeto está vinculado ao **ODS 9 – Indústria, Inovação e Infraestrutura**, contribuindo para a promoção de ambientes industriais mais seguros por meio da análise de dados.
 
-## 🎯 Objetivo
+## Objetivo
 
 Desenvolver um produto analítico baseado em **séries temporais** que transforme dados brutos do INSS sobre acidentes de trabalho em **previsões e insights estratégicos**, apoiando a atualização precisa e preventiva das tabelas de seguros.
 
@@ -44,36 +44,7 @@ Desenvolver um produto analítico baseado em **séries temporais** que transform
 - Dashboards interativos para visualização dos resultados
 - Recomendações estratégicas para precificação de seguros
 
-## 🗂️ Estrutura do Repositório
-
-```
-📦 Projeto_Aplicado_IV_Tecnologia_em_Ciencia_de_Dados
-├── 📁 dados/
-│   ├── 📁 brutos/              # Dados originais do INSS (CSV)
-│   └── 📁 processados/         # Dados limpos e transformados
-├── 📁 notebooks/
-│   ├── 01_analise_exploratoria.ipynb
-│   ├── 02_preprocessamento.ipynb
-│   ├── 03_modelagem_sarima.ipynb
-│   ├── 04_modelagem_xgboost.ipynb
-│   ├── 05_modelagem_prophet.ipynb
-│   └── 06_comparacao_modelos.ipynb
-├── 📁 docs/
-│   ├── Entrega_1_Definicao_Projeto.pdf
-│   ├── Entrega_2_Referencial_Teorico.pdf
-│   ├── Entrega_3_Implementacao_Parcial.pdf
-│   └── Entrega_4_Entrega_Final.pdf
-├── 📁 figuras/                 # Gráficos e visualizações geradas
-├── 📁 src/                     # Scripts auxiliares
-│   ├── utils.py
-│   └── pipeline.py
-├── .gitignore
-├── LICENSE
-├── README.md
-└── requirements.txt
-```
-
-## 📊 Base de Dados
+## Base de Dados
 
 | Característica | Detalhe |
 |---|---|
@@ -95,7 +66,7 @@ Desenvolver um produto analítico baseado em **séries temporais** que transform
 | Mês/Ano | Período da ocorrência |
 | Quantidade | Número de acidentes (**variável-alvo**) |
 
-## 🛠️ Tecnologias e Ferramentas
+## Tecnologias e Ferramentas
 
 <p>
   <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
@@ -108,7 +79,7 @@ Desenvolver um produto analítico baseado em **séries temporais** que transform
   <img src="https://img.shields.io/badge/Google%20Colab-F9AB00?style=flat-square&logo=googlecolab&logoColor=white"/>
 </p>
 
-## 📅 Cronograma de Entregas
+## Cronograma de Entregas
 
 | Etapa | Descrição | Data | Status |
 |:---:|---|:---:|:---:|
@@ -117,7 +88,7 @@ Desenvolver um produto analítico baseado em **séries temporais** que transform
 | 3 | Implementação Parcial | 26/04/2026 | ⏳ Pendente |
 | 4 | Implementação e Entrega Final | 31/05/2026 | ⏳ Pendente |
 
-## 🔬 Metodologia
+## Metodologia
 
 ```mermaid
 graph LR
@@ -142,14 +113,7 @@ graph LR
 | **Natallia Rodrigues de Oliveira** | Integrante |
 | **Rafael Ferreira Eloi** | Integrante |
 
-## 📚 Referências Principais
-
-- BOX, G. E. P. et al. **Time Series Analysis**: Forecasting and Control. 5. ed. Wiley, 2015.
-- HYNDMAN, R. J.; ATHANASOPOULOS, G. **Forecasting**: Principles and Practice. 3. ed. OTexts, 2021. Disponível em: [otexts.com/fpp3](https://otexts.com/fpp3/).
-- MORETTIN, P. A.; TOLOI, C. M. C. **Análise de Séries Temporais**. 3. ed. Blucher, 2018.
-- TAYLOR, S. J.; LETHAM, B. Forecasting at Scale. *The American Statistician*, v. 72, n. 1, 2018.
-
-## 📄 Licença
+## Licença
 
 Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
 
