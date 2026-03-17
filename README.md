@@ -18,7 +18,6 @@
 <p align="center">
   <img src="https://raw.githubusercontent.com/scalabrinig/cdProjetoAplicadoIV/1cbc699eb401a201e2b313d97f3eee6981ddcaea/figuras/sdg_09.svg" width="80"/>
   &nbsp;&nbsp;
-  <img src="https://raw.githubusercontent.com/scalabrinig/cdProjetoAplicadoIV/1cbc699eb401a201e2b313d97f3eee6981ddcaea/figuras/sdg_12.svg" width="80"/>
 </p>
 
 ---
