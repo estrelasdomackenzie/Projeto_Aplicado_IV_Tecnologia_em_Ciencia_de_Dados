@@ -37,10 +37,10 @@ Desenvolver um produto analítico baseado em **séries temporais** que transform
 ### Objetivos Específicos
 
 - Análise exploratória dos dados identificando padrões temporais, regionais e setoriais
-- Decomposição de séries temporais (tendência, sazonalidade e resíduos)
+- Decomposição de séries temporais (tendência, sazonalidade e resíduos) via STL e decomposição clássica
 - Implementação e comparação de modelos: **SARIMA**, **XGBoost** e **Prophet**
 - Avaliação com métricas MAE, RMSE e MAPE
-- Dashboards interativos para visualização dos resultados
+- Visualizações interativas para apresentação dos resultados
 - Recomendações estratégicas para precificação de seguros
 
 ## Base de Dados
@@ -48,10 +48,10 @@ Desenvolver um produto analítico baseado em **séries temporais** que transform
 | Característica | Detalhe |
 |---|---|
 | **Fonte** | INSS – Portal de Dados Abertos ([dados.gov.br](https://dados.gov.br)) |
-| **Período** | 2019 – 2024 (~6 anos) |
+| **Complemento** | Anuário Estatístico da Previdência Social (AEPS) |
+| **Período** | Junho/2023 – Janeiro/2026 (**31 meses**) |
 | **Granularidade** | Mensal |
 | **Formato** | CSV (tabular) |
-| **Complemento** | Anuário Estatístico da Previdência Social (AEPS) |
 
 ### Variáveis Principais
 
@@ -83,7 +83,7 @@ Desenvolver um produto analítico baseado em **séries temporais** que transform
 | Etapa | Descrição | Data | Status |
 |:---:|---|:---:|:---:|
 | 1 | Definição do projeto e equipe | 01/03/2026 | ✅ Concluída |
-| 2 | Referencial Teórico e Cronograma | 29/03/2026 | 🔄 Em andamento |
+| 2 | Referencial Teórico e Cronograma | 29/03/2026 | ✅ Concluída |
 | 3 | Implementação Parcial | 26/04/2026 | ⏳ Pendente |
 | 4 | Implementação e Entrega Final | 31/05/2026 | ⏳ Pendente |
 
@@ -91,16 +91,29 @@ Desenvolver um produto analítico baseado em **séries temporais** que transform
 
 ```mermaid
 graph LR
-    A[Coleta de Dados<br>INSS/dados.gov.br] --> B[Pré-processamento<br>Limpeza e Transformação]
-    B --> C[Análise Exploratória<br>EDA e Decomposição]
-    C --> D[Modelagem]
-    D --> E[SARIMA]
-    D --> F[XGBoost]
-    D --> G[Prophet]
-    E --> H[Avaliação<br>MAE, RMSE, MAPE]
-    F --> H
-    G --> H
-    H --> I[Recomendações<br>KNRA Seguros]
+    A["1. Coleta<br>INSS / AEPS<br>dados.gov.br"] --> B["2. Pré-processamento<br>Limpeza, Agregação<br>Eng. de Features"]
+    B --> C["3. EDA<br>Decomposição STL<br>ACF/PACF"]
+    C --> D["4. Modelagem<br>SARIMA<br>XGBoost<br>Prophet"]
+    D --> E["5. Avaliação<br>MAE, RMSE, MAPE<br>Cross-Validation"]
+    E --> F["6. Insights<br>Previsões<br>Recomendações KNRA"]
+```
+
+## Estrutura do Repositório
+
+```
+├── projeto/
+│   ├── cd_projeto_aplicado_IV_entrega_1.ipynb
+│   ├── cd_projeto_aplicado_IV_entrega_2.ipynb
+│   ├── cd_projeto_aplicado_IV_entrega_3.ipynb
+│   └── cd_projeto_aplicado_IV_entrega_4.ipynb
+├── dados/
+│   └── (datasets INSS/AEPS)
+├── docs/
+│   └── (documentos ABNT .docx/.pdf)
+├── README.md
+├── requirements.txt
+├── LICENSE
+└── .gitignore
 ```
 
 ## 👥 Equipe
@@ -112,6 +125,14 @@ graph LR
 | **Natallia Rodrigues de Oliveira** | Integrante |
 | **Rafael Ferreira Eloi** | Integrante |
 
+## Referências Principais
+
+- BOX, G. E. P. et al. *Time Series Analysis: Forecasting and Control*. 5. ed. Wiley, 2015.
+- HYNDMAN, R. J.; ATHANASOPOULOS, G. *Forecasting: Principles and Practice*. 3. ed. OTexts, 2021.
+- TAYLOR, S. J.; LETHAM, B. Forecasting at scale. *The American Statistician*, v. 72, n. 1, 2018.
+- CHEN, T.; GUESTRIN, C. XGBoost: A Scalable Tree Boosting System. *ACM SIGKDD*, 2016.
+- MORETTIN, P. A.; TOLOI, C. M. C. *Análise de Séries Temporais*. 3. ed. Blucher, 2018.
+
 ## Licença
 
 Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
@@ -121,5 +142,5 @@ Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para ma
 <p align="center">
   <strong>Universidade Presbiteriana Mackenzie</strong><br>
   Tecnologia em Ciência de Dados – EaD – 2026/01<br>
-  Projeto Aplicado IV – Prof. Scalabrin
+  Projeto Aplicado IV – Prof. Gustavo Scalabrini Sampaio
 </p>
