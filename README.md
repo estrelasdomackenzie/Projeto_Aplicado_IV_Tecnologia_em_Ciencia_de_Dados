@@ -102,14 +102,11 @@ graph LR
 
 ```
 ├── projeto/
-│   ├── cd_projeto_aplicado_IV_entrega_1.ipynb
-│   ├── cd_projeto_aplicado_IV_entrega_2.ipynb
-│   ├── cd_projeto_aplicado_IV_entrega_3.ipynb
-│   └── cd_projeto_aplicado_IV_entrega_4.ipynb
+│   ├── cd_projeto_aplicado_IV.ipynb 
 ├── dados/
-│   └── (datasets INSS/AEPS)
+│   └── Dados INSS - Exportados
 ├── docs/
-│   └── (documentos ABNT .docx/.pdf)
+│   └── Projeto_Aplicado_IV_Documento
 ├── README.md
 ├── requirements.txt
 ├── LICENSE
