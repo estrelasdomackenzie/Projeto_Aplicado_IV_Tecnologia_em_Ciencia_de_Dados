@@ -107,12 +107,8 @@ graph LR
 
 ```
 ├── projeto/
-│   ├── cd_projeto_aplicado_IV_entrega_1.ipynb
-│   ├── cd_projeto_aplicado_IV_entrega_2.ipynb
-│   ├── cd_projeto_aplicado_IV_entrega_3.ipynb
-│   └── cd_projeto_aplicado_IV_entrega_4.ipynb
 ├── docs/
-│   └── (documentos ABNT .docx/.pdf)
+│   └── Projeto_Aplicado_IV_Documento.pdf
 ├── README.md
 ├── requirements.txt
 ├── LICENSE
