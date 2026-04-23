@@ -88,8 +88,8 @@ Desenvolver um produto analítico baseado em **séries temporais** que transform
 - ✅ **Entrega 1** (01/03): Definição do projeto e equipe
 - ✅ **Entrega 2** (29/03): Referencial Teórico e Cronograma
 - ✅ **Entrega 3** (26/04): Implementação Parcial — EDA, pré-processamento e modelo base SARIMA
-  - [`cd_projeto_aplicado_IV_entrega_3.ipynb`](Projeto_Aplicado_IV_Entrega_3.pdf) — *notebook* executável
-  - [`Projeto_Aplicado_IV_Entrega_3.pdf`](./projeto/Projeto_Aplicado_IV_Entrega_3.pdf)
+  - [`cd_projeto_aplicado_IV_entrega_3.ipynb`](cd_projeto_aplicado_IV_entrega_3.ipynb) — notebook executado
+  - [`Projeto_Aplicado_IV_Entrega_3.pdf`](Projeto_Aplicado_IV_Entrega_3.pdf) — Documentação atualizada
 - ⏳ **Entrega 4** (31/05): Implementação e Entrega Final
 
 ## Metodologia
