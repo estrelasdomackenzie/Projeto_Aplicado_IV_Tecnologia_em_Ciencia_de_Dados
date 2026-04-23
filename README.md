@@ -83,14 +83,14 @@ Desenvolver um produto analítico baseado em **séries temporais** que transform
   <img src="https://img.shields.io/badge/Google%20Colab-F9AB00?style=flat-square&logo=googlecolab&logoColor=white"/>
 </p>
 
-## Cronograma de Entregas
+## Status das Entregas
 
-| Etapa | Descrição | Data | Status |
-|:---:|---|:---:|:---:|
-| 1 | Definição do projeto e equipe | 01/03/2026 | ✅ Concluída |
-| 2 | Referencial Teórico e Cronograma | 29/03/2026 | ✅ Concluída |
-| 3 | Implementação Parcial | 26/04/2026 | ⏳ Pendente |
-| 4 | Implementação e Entrega Final | 31/05/2026 | ⏳ Pendente |
+- ✅ **Entrega 1** (01/03): Definição do projeto e equipe
+- ✅ **Entrega 2** (29/03): Referencial Teórico e Cronograma
+- ✅ **Entrega 3** (26/04): Implementação Parcial — EDA, pré-processamento e modelo base SARIMA
+  - [`cd_projeto_aplicado_IV_entrega_3.ipynb`](./projeto/cd_projeto_aplicado_IV_entrega_3.ipynb) — *notebook* executável
+  - [`Projeto_Aplicado_IV_Entrega_3.pdf`](./projeto/Projeto_Aplicado_IV_Entrega_3.pdf)
+- ⏳ **Entrega 4** (31/05): Implementação e Entrega Final
 
 ## Metodologia
 
